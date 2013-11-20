@@ -1,0 +1,30 @@
+<Alloy>
+	<Window class="container">
+		<TableView id="idGlavnaTabela">
+			<TableViewRow id="tableRow">
+				<View id="viewLeft">
+					<Button id="pickeat">Pickeat</Button>
+				</View>
+				<View id="viewRight">
+					<Button id="settings">Settings</Button>
+				</View>
+			</TableViewRow>
+			<TableViewRow id="tableRow">
+				<View id="viewLeft">
+					<Button id="mealPhoto" onClick="slikaj">Take a photo of your meal</Button>
+				</View>
+				<View id="viewRight">
+					<Button id="mealGallery">Gallery of my meals</Button>
+				</View>
+			</TableViewRow>
+			<TableViewRow id="tableRow">
+				<View id="viewLeft">
+					<Button id="selfPhoto" onClick="slikaj">Take a photo of yourself</Button>
+				</View>
+				<View id="viewRight">
+					<Button id="selfGallery">My photo gallery</Button>
+				</View>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>
